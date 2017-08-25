@@ -59,7 +59,7 @@ app.get('/', function(req, res) {
 
 
 //------------------------   Database configuration with mongoose   ------------------------
-mongoose.connect("mongodb://localhost/scraper");
+mongoose.connect("mongodb://heroku_dv4kf3rz:hr5gq8tlodio101i4sflgtod3@ds157873.mlab.com:57873/heroku_dv4kf3rz");
 var db = mongoose.connection;
 
 
